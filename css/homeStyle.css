@@ -1,0 +1,288 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    
+ }
+ #formSection{
+     background-image: url(https://forever.travel-assets.com/flex/flexmanager/images/2021/06/25/TVLY_SeizeYourSomeday_lpheroB_1680x945_20210623.jpg);
+     height: 500px;
+     width: 100%;
+     background-size: 100% 100%;
+     padding-top: 25px; 
+     margin-bottom: 4rem;          
+ }
+ #formSection > div{
+     width: 90%;
+     height: 300px;
+     margin: auto;
+     background-color: white;
+     border-radius: 10px;
+ }
+ form>div{
+     display: flex;
+     margin: auto;
+     justify-content: center;
+     align-items: center;
+     height: 10vh;
+ }
+ div>ul{
+     display: flex;
+     list-style-type: none;
+     align-items: start;
+ }
+ ul li{
+    padding: 5px 15px 0px 15px; 
+ }
+  hr{
+     display: flex;
+     width: 95%;
+     margin: auto;
+     position: relative;
+     bottom: 5px;
+     margin-bottom: 20px;
+ }
+ .fillform{
+     display: flex;
+     justify-content:center;
+     margin: auto;
+     height: 50px;
+ }
+ .fillform input{
+     height: 50px;
+     border-radius: 10px;
+     border: 1px solid grey;
+     margin: 0px 6px 0px 6px;
+     padding-left: 15px;
+ }
+ .check{
+     display: flex;
+     justify-content:left;
+     margin: auto;
+     width: 90%;
+     height: 50px;
+ }
+ .check>label:nth-child(2){
+     padding-right: 100px;
+ }
+ .check>label{
+     padding-left: 10px;
+     font-size: 14px;
+ }
+ form div>button {
+     margin: auto;
+     border-radius: 0.5rem;
+     background-color: #0D5AB9;
+     color: white;
+     line-height: 1.52rem;
+     min-block-size: 3rem;
+     padding: 0.25rem 4rem;
+     font-size: 1rem;
+     font-weight: 500;
+     border: none;
+ }
+
+ .fillform input:first-child{
+     width: 460px;
+ }
+ .fillform input:nth-child(4){
+     width: 260px;
+ }
+ .fillform input:nth-child(2), .fillform input:nth-child(3){
+     width: 180px;
+ }
+ .wrapper2{
+     margin: auto;
+  }
+ .wrapper3{
+     display: grid;
+     border: 1px solid turquoise;
+ }
+ .resorts2{
+     display: flex;
+     gap: 25px;
+     width: 92%;
+     margin: auto;
+ }
+ .resorts1{
+     display: flex;
+     height: 220px;
+     gap: 25px;
+     width: 92%;
+     margin: auto;
+     margin-bottom: 30px;   
+ }
+ .resorts1 > div ,.resorts2 > div {
+     height: auto;
+     flex:1;
+ }
+ .resorts1 > div img {
+     width: 100%;
+     border-radius: 10px 10px 0px 0px;
+ }
+ .resorts2 > div img{
+     width: 100%;
+     height: 80%;
+     border-radius: 10px;
+         filter: brightness(60%);
+     }
+     .resorts1 > div img+p{
+         font-size: 14px;
+         color: grey;
+     }
+     .resorts2 > div span{
+         position: relative;
+         bottom: 200px;
+         color: white;
+     }
+     span>p {
+         margin-left: 30px;
+     }
+     span>button {
+         margin-left: 30px;
+         line-height: 30px;
+         padding-left: 15px;
+         padding-right: 15px;
+         border-radius: 5px;
+         border: none;
+         color: #0D5AB9;
+         font-size: 1rem;
+     }
+     h2{
+            width: 90%;
+            margin: auto;
+        }
+    .planning{
+            height: 250px;
+            width: 93%;
+            margin: auto;
+            display: flex;
+            gap:0.4%;
+        }
+        .planning div{
+            flex: 1;
+            margin:1%;
+        }
+        .planning div>p{
+            position: relative;
+            bottom: 40px;
+            left: 20px;
+            color: white;
+            font-weight: 700;
+            margin: auto;
+            font-size: 18px;
+            text-shadow: 1px 1px #313131;
+        }
+        .planning div>img{
+            width:100%;
+            border-radius: 10px;
+            filter: brightness(90%);
+        } 
+        .features{
+            height: auto;
+            width: 91%;
+            margin: auto;
+            display: flex;
+            gap: 1%;
+        }
+        .features>div:nth-child(1){
+            display: flex;
+            flex: 10 ;
+        }
+        .features div>img{
+            width: 100%;
+            height: 250px;
+            border-radius: 10px;  
+            filter: brightness(90%);
+        }
+        .features+span h5,.features+span p{
+            width: 88%;
+            margin: auto;
+            position: relative;
+            bottom: 60px;
+            color: white;
+        }
+        
+        .youtube{
+            width: 90%;
+            margin: auto;
+        }
+        .youtube iframe{
+            border-radius: 10px;
+            width: 100%;
+            height: 420px;
+        }
+        .help{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 20px;
+            width: 90%;
+            height: 80px;
+            margin: auto;
+            margin-bottom: 40px;
+         }
+         .help div{
+            border: 1px solid grey;
+            padding-top: 3%;
+            padding-left: 10px;
+            border-radius: 10px;
+         }
+         .help div>h3+p{
+            font-size: 12px;
+            line-height: 20px;
+         }
+         .youtube+h2{
+            margin-top: 30px;
+            margin-bottom: 20px;
+         }
+         .app{
+            display: grid;
+            grid-template-columns: 38% 50% 12%;
+            border: 1px solid black;
+            border-radius: 5px;
+            margin: auto;
+            width: 90%;
+            height: 272px;
+            margin-bottom: 20px;
+         }
+         .app>div img{
+            width: 100%;
+            height: auto;
+         }
+         .app>div ul {
+            padding-left:20px ;
+            padding-top: 5px;
+         }
+         .app>div li{
+            color: grey;
+            font-size: 14px;
+         }
+         .app>div h3{
+            padding-left: 35px;
+            padding-top: 25px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+         }
+         .app>div button{
+            background-color: #0D5AB9;
+            padding: 15px 40px 15px 40px ;
+            border-radius: 10px;
+            border: none;
+            color: white;
+            font-size: 16px;
+            font-weight: 600;
+         }
+         .app>div input , .app>div select{
+            padding: 15px 20px 15px 20px ;
+            border-radius: 10px;
+            border: 1px solid grey;
+         }
+         .app>div select{
+            margin-left: 40px;
+         }
+         .app>div p{
+            text-align: center;
+            font-weight: bold;
+         }
+        
