@@ -178,4 +178,38 @@
             width:100%;
             border-radius: 10px;
             filter: brightness(90%);
+        } 
+        .features{
+            height: auto;
+            width: 91%;
+            margin: auto;
+            display: flex;
+            gap: 1%;
+        }
+        .features>div:nth-child(1){
+            display: flex;
+            flex: 10 ;
+        }
+        .features div>img{
+            width: 100%;
+            height: 250px;
+            border-radius: 10px;  
+            filter: brightness(90%);
+        }
+        .features+span h5,.features+span p{
+            width: 88%;
+            margin: auto;
+            position: relative;
+            bottom: 60px;
+            color: white;
+        }
+        
+        .youtube{
+            width: 90%;
+            margin: auto;
+        }
+        .youtube iframe{
+            border-radius: 10px;
+            width: 100%;
+            height: 420px;
         }
