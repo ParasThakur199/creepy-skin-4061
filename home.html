@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <style>
+        *{
+           margin: 0px;
+           padding: 0px;
+           box-sizing: border-box; 
+           font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+           
+        }
+        #formSection{
+            background-image: url(https://forever.travel-assets.com/flex/flexmanager/images/2021/06/25/TVLY_SeizeYourSomeday_lpheroB_1680x945_20210623.jpg);
+            height: 500px;
+            width: 100%;
+            background-size: 100% 100%;
+            padding-top: 25px; 
+            margin-bottom: 4rem;          
+        }
+        #formSection > div{
+            width: 90%;
+            height: 300px;
+            margin: auto;
+            background-color: white;
+            border-radius: 10px;
+        }
+        form>div{
+            display: flex;
+            margin: auto;
+            justify-content: center;
+            align-items: center;
+            height: 10vh;
+        }
+        div>ul{
+            display: flex;
+            list-style-type: none;
+            align-items: start;
+        }
+        ul li{
+           padding: 5px 15px 0px 15px; 
+        }
+         hr{
+            display: flex;
+            width: 95%;
+            margin: auto;
+            position: relative;
+            bottom: 5px;
+            margin-bottom: 20px;
+        }
+        .fillform{
+            display: flex;
+            justify-content:center;
+            margin: auto;
+            height: 50px;
+        }
+        .fillform input{
+            height: 50px;
+            border-radius: 10px;
+            border: 1px solid grey;
+            margin: 0px 6px 0px 6px;
+            padding-left: 15px;
+        }
+        .check{
+            display: flex;
+            justify-content:left;
+            margin: auto;
+            width: 90%;
+            height: 50px;
+        }
+        .check>label:nth-child(2){
+            padding-right: 100px;
+        }
+        .check>label{
+            padding-left: 10px;
+            font-size: 14px;
+        }
+        form div>button {
+            margin: auto;
+            border-radius: 0.5rem;
+            background-color: #0D5AB9;
+            color: white;
+            line-height: 1.52rem;
+            min-block-size: 3rem;
+            padding: 0.25rem 4rem;
+            font-size: 1rem;
+            font-weight: 500;
+            border: none;
+        }
+
+        .fillform input:first-child{
+            width: 460px;
+        }
+        .fillform input:nth-child(4){
+            width: 260px;
+        }
+        .fillform input:nth-child(2), .fillform input:nth-child(3){
+            width: 180px;
+        }
+        .wrapper2{
+            margin: auto;
+         }
+        .wrapper3{
+            display: grid;
+            border: 1px solid turquoise;
+        }
+       
+    </style>
+</head>
+<body>
+    <div id="formSection">
+        <div>
+            <form action="#">
+                <div>
+                    <ul>
+                        <li>Stays</li>
+                        <li>Flights</li>
+                        <li>Cars</li>
+                        <li>Packages</li>
+                        <li>Things to do</li>
+                        <li>Crusis</li>
+                    </ul>
+                </div>
+                <hr>
+                 <div class="fillform">
+                    <input type="text" name="name" placeholder="name">
+                    <input type="month" name="name" placeholder="name">
+                    <input type="date" name="name" placeholder="name">
+                    <input type="text" name="name" placeholder="name">
+                </div>
+                <div class="check">
+                    <input type="checkbox" name="flight" placeholder="name">
+                    <label for="Add a flight">Add a flight</label>
+                    <input type="checkbox" name="car" placeholder="name">
+                    <label for="Add a flight">Add a car</label>
+                </div>
+                <div>
+                    <button>Search</button>
+                </div>   
+            </form>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
