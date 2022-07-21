@@ -5,6 +5,23 @@
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     
  }
+  /*  <-----header----->  */
+nav{
+    display: flex;
+    height: 75px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0D5AB9;
+    padding: 0 4rem;
+}
+.nav-menu li>a{
+    color: white;
+    text-decoration: none;
+}
+
+/*  <----body---->  */
  #formSection{
      background-image: url(https://forever.travel-assets.com/flex/flexmanager/images/2021/06/25/TVLY_SeizeYourSomeday_lpheroB_1680x945_20210623.jpg);
      height: 500px;
@@ -239,11 +256,11 @@
          .app{
             display: grid;
             grid-template-columns: 38% 50% 12%;
-            border: 1px solid black;
+            border: 1px solid grey;
             border-radius: 5px;
             margin: auto;
             width: 90%;
-            height: 272px;
+            height: 280px;
             margin-bottom: 20px;
          }
          .app>div img{
