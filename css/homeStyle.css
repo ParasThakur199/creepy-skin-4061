@@ -1,288 +1,761 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box; 
+    box-sizing: border-box;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    
- }
- #formSection{
-     background-image: url(https://forever.travel-assets.com/flex/flexmanager/images/2021/06/25/TVLY_SeizeYourSomeday_lpheroB_1680x945_20210623.jpg);
-     height: 500px;
-     width: 100%;
-     background-size: 100% 100%;
-     padding-top: 25px; 
-     margin-bottom: 4rem;          
- }
- #formSection > div{
-     width: 90%;
-     height: 300px;
-     margin: auto;
-     background-color: white;
-     border-radius: 10px;
- }
- form>div{
-     display: flex;
-     margin: auto;
-     justify-content: center;
-     align-items: center;
-     height: 10vh;
- }
- div>ul{
-     display: flex;
-     list-style-type: none;
-     align-items: start;
- }
- ul li{
-    padding: 5px 15px 0px 15px; 
- }
-  hr{
-     display: flex;
-     width: 95%;
-     margin: auto;
-     position: relative;
-     bottom: 5px;
-     margin-bottom: 20px;
- }
- .fillform{
-     display: flex;
-     justify-content:center;
-     margin: auto;
-     height: 50px;
- }
- .fillform input{
-     height: 50px;
-     border-radius: 10px;
-     border: 1px solid grey;
-     margin: 0px 6px 0px 6px;
-     padding-left: 15px;
- }
- .check{
-     display: flex;
-     justify-content:left;
-     margin: auto;
-     width: 90%;
-     height: 50px;
- }
- .check>label:nth-child(2){
-     padding-right: 100px;
- }
- .check>label{
-     padding-left: 10px;
-     font-size: 14px;
- }
- form div>button {
-     margin: auto;
-     border-radius: 0.5rem;
-     background-color: #0D5AB9;
-     color: white;
-     line-height: 1.52rem;
-     min-block-size: 3rem;
-     padding: 0.25rem 4rem;
-     font-size: 1rem;
-     font-weight: 500;
-     border: none;
- }
 
- .fillform input:first-child{
-     width: 460px;
- }
- .fillform input:nth-child(4){
-     width: 260px;
- }
- .fillform input:nth-child(2), .fillform input:nth-child(3){
-     width: 180px;
- }
- .wrapper2{
-     margin: auto;
-  }
- .wrapper3{
-     display: grid;
-     border: 1px solid turquoise;
- }
- .resorts2{
-     display: flex;
-     gap: 25px;
-     width: 92%;
-     margin: auto;
- }
- .resorts1{
-     display: flex;
-     height: 220px;
-     gap: 25px;
-     width: 92%;
-     margin: auto;
-     margin-bottom: 30px;   
- }
- .resorts1 > div ,.resorts2 > div {
-     height: auto;
-     flex:1;
- }
- .resorts1 > div img {
-     width: 100%;
-     border-radius: 10px 10px 0px 0px;
- }
- .resorts2 > div img{
-     width: 100%;
-     height: 80%;
-     border-radius: 10px;
-         filter: brightness(60%);
-     }
-     .resorts1 > div img+p{
-         font-size: 14px;
-         color: grey;
-     }
-     .resorts2 > div span{
-         position: relative;
-         bottom: 200px;
-         color: white;
-     }
-     span>p {
-         margin-left: 30px;
-     }
-     span>button {
-         margin-left: 30px;
-         line-height: 30px;
-         padding-left: 15px;
-         padding-right: 15px;
-         border-radius: 5px;
-         border: none;
-         color: #0D5AB9;
-         font-size: 1rem;
-     }
-     h2{
-            width: 90%;
-            margin: auto;
-        }
-    .planning{
-            height: 250px;
-            width: 93%;
-            margin: auto;
-            display: flex;
-            gap:0.4%;
-        }
-        .planning div{
-            flex: 1;
-            margin:1%;
-        }
-        .planning div>p{
-            position: relative;
-            bottom: 40px;
-            left: 20px;
-            color: white;
-            font-weight: 700;
-            margin: auto;
-            font-size: 18px;
-            text-shadow: 1px 1px #313131;
-        }
-        .planning div>img{
-            width:100%;
-            border-radius: 10px;
-            filter: brightness(90%);
-        } 
-        .features{
-            height: auto;
-            width: 91%;
-            margin: auto;
-            display: flex;
-            gap: 1%;
-        }
-        .features>div:nth-child(1){
-            display: flex;
-            flex: 10 ;
-        }
-        .features div>img{
-            width: 100%;
-            height: 250px;
-            border-radius: 10px;  
-            filter: brightness(90%);
-        }
-        .features+span h5,.features+span p{
-            width: 88%;
-            margin: auto;
-            position: relative;
-            bottom: 60px;
-            color: white;
-        }
-        
-        .youtube{
-            width: 90%;
-            margin: auto;
-        }
-        .youtube iframe{
-            border-radius: 10px;
-            width: 100%;
-            height: 420px;
-        }
-        .help{
-            display: grid;
-            grid-template-columns: repeat(3,1fr);
-            gap: 20px;
-            width: 90%;
-            height: 80px;
-            margin: auto;
-            margin-bottom: 40px;
-         }
-         .help div{
-            border: 1px solid grey;
-            padding-top: 3%;
-            padding-left: 10px;
-            border-radius: 10px;
-         }
-         .help div>h3+p{
-            font-size: 12px;
-            line-height: 20px;
-         }
-         .youtube+h2{
-            margin-top: 30px;
-            margin-bottom: 20px;
-         }
-         .app{
-            display: grid;
-            grid-template-columns: 38% 50% 12%;
-            border: 1px solid black;
-            border-radius: 5px;
-            margin: auto;
-            width: 90%;
-            height: 272px;
-            margin-bottom: 20px;
-         }
-         .app>div img{
-            width: 100%;
-            height: auto;
-         }
-         .app>div ul {
-            padding-left:20px ;
-            padding-top: 5px;
-         }
-         .app>div li{
-            color: grey;
-            font-size: 14px;
-         }
-         .app>div h3{
-            padding-left: 35px;
-            padding-top: 25px;
-            border-radius: 10px;
-            margin-bottom: 15px;
-         }
-         .app>div button{
-            background-color: #0D5AB9;
-            padding: 15px 40px 15px 40px ;
-            border-radius: 10px;
-            border: none;
-            color: white;
-            font-size: 16px;
-            font-weight: 600;
-         }
-         .app>div input , .app>div select{
-            padding: 15px 20px 15px 20px ;
-            border-radius: 10px;
-            border: 1px solid grey;
-         }
-         .app>div select{
-            margin-left: 40px;
-         }
-         .app>div p{
-            text-align: center;
-            font-weight: bold;
-         }
-        
+}
+
+#formSection {
+    background-image: url(https://forever.travel-assets.com/flex/flexmanager/images/2021/06/25/TVLY_SeizeYourSomeday_lpheroB_1680x945_20210623.jpg);
+    height: 500px;
+    width: 100%;
+    background-size: 100% 100%;
+    padding-top: 25px;
+    margin-bottom: 4rem;
+}
+
+#formSection>div {
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+form>div {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+div>ul {
+    display: flex;
+    list-style-type: none;
+    align-items: start;
+}
+
+ul li {
+    padding: 5px 15px 0px 15px;
+}
+
+hr {
+    display: flex;
+    width: 95%;
+    margin: auto;
+    position: relative;
+    bottom: 5px;
+    margin-bottom: 20px;
+}
+
+.fillform {
+    display: grid;  
+    grid-template-columns: repeat(4, 1fr);
+    /* justify-content:center; */
+    width: 90%;
+    margin: auto;
+    height: 50px;
+    grid-template-areas: "d1 d2 d3 d4";
+    text-align: center;
+}
+
+.fillform input {
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    margin: 0px 6px 0px 6px;
+    padding-left: 15px;
+}
+
+.fillform>input:first-child {
+    grid-area: d1;
+}
+
+.fillform>input:nth-child(2) {
+    grid-area: d2;
+}
+
+.fillform>input:nth-child(3) {
+    grid-area: d3;
+}
+
+.fillform>input:nth-child(4) {
+    grid-area: d4;
+}
+
+.check {
+    display: flex;
+    justify-content: left;
+    margin: auto;
+    width: 90%;
+    height: 50px;
+}
+
+.check>label:nth-child(2) {
+    padding-right: 100px;
+}
+
+.check>label {
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+form div>button {
+    margin: auto;
+    border-radius: 0.5rem;
+    background-color: #0D5AB9;
+    color: white;
+    line-height: 1.52rem;
+    min-block-size: 3rem;
+    padding: 0.25rem 4rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+}
+
+.fillform input:first-child {
+    width: 460px;
+}
+
+.fillform input:nth-child(4) {
+    width: 260px;
+}
+
+.fillform input:nth-child(2),
+.fillform input:nth-child(3) {
+    width: 180px;
+}
+
+.wrapper2 {
+    margin: auto;
+
+
+}
+
+.wrapper3 {
+    display: grid;
+    border: 1px solid turquoise;
+}
+
+.resorts1 {
+    display: flex;
+    height: auto;
+    gap: 25px;
+    width: 92%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.resorts1>div,
+.resorts2>div {
+    height: auto;
+    flex: 1;
+}
+
+.resorts1>div img {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.resorts2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    width: 92%;
+    margin: auto;
+}
+
+.resorts2>div img {
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+    filter: brightness(60%);
+}
+
+.resorts1>div img+p {
+    font-size: 14px;
+    color: grey;
+}
+
+.resorts2>div span {
+    position: relative;
+    bottom: 65%;
+    color: white;
+}
+
+span>p {
+    margin-left: 30px;
+}
+
+span>button {
+    margin-left: 30px;
+    line-height: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    border: none;
+    color: #0D5AB9;
+    font-size: 1rem;
+}
+
+.planning {
+    height: 250px;
+    width: 93%;
+    margin: auto;
+    display: flex;
+    gap: 0.4%;
+}
+
+.planning div {
+    flex: 1;
+    margin: 1%;
+}
+
+.planning div>p {
+    position: relative;
+    bottom: 20%;
+    left: 20px;
+    color: white;
+    font-weight: 700;
+    margin: auto;
+    font-size: 18px;
+    text-shadow: 1px 1px #313131;
+}
+
+.planning div>img {
+    width: 100%;
+    border-radius: 10px;
+    filter: brightness(90%);
+}
+
+.features {
+    height: auto;
+    width: 91%;
+    margin: auto;
+    display: flex;
+    gap: 1%;
+}
+
+.features>div:nth-child(1) {
+    display: flex;
+    flex: 10;
+}
+
+.features div>img {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    filter: brightness(90%);
+}
+
+.features+span h5,
+.features+span p {
+    width: 88%;
+    margin: auto;
+    position: relative;
+    bottom: 60px;
+    color: white;
+}
+
+h2 {
+    width: 90%;
+    margin: auto;
+}
+
+.youtube {
+    width: 90%;
+    margin: auto;
+}
+
+.youtube iframe {
+    border-radius: 10px;
+    width: 100%;
+    height: 420px;
+}
+
+.help {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 90%;
+    height: 80px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.help div {
+    border: 1px solid grey;
+    padding-top: 3%;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+.help div>h3+p {
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.youtube+h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.app {
+    display: grid;
+    grid-template-columns: 38% 50% 12%;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: auto;
+    width: 90%;
+    height: 280px;
+    margin-bottom: 50px;
+}
+
+.app>div img {
+    width: 100%;
+    height: auto;
+}
+
+.app>div ul {
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.app>div li {
+    color: grey;
+    font-size: 14px;
+}
+
+.app>div h3 {
+    padding-left: 35px;
+    padding-top: 25px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.app>div button {
+    background-color: #0D5AB9;
+    padding: 15px 40px 15px 40px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.app>div input,
+.app>div select {
+    padding: 15px 20px 15px 20px;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+
+.app>div select {
+    margin-left: 40px;
+}
+
+.app>div p {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/*  <-----header----->  */
+nav {
+    display: flex;
+    height: 75px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0D5AB9;
+    padding: 0 4rem;
+}
+
+.nav-menu li>a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo>.item {
+    margin-left: 25px;
+    list-style-type: none;
+}
+
+.item>a {
+    color: white;
+    text-decoration: none;
+}
+
+.dropdown-nav {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 365px;
+    border-radius: 10px;
+    height: auto;
+    padding-bottom: 25px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+.dropdown-nav li a {
+    color: grey;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.dropdown-nav {
+    display: none;
+}
+
+:hover>.dropdown-nav {
+    display: block;
+}
+
+.dropdown-nav li a:hover {
+    display: block;
+    color: blue;
+}
+
+.item a>img {
+    width: 12px;
+    margin-left: 10px;
+}
+
+.dropdown-nav li a>img {
+    width: 20px;
+    margin-top: 25px;
+    margin-right: 30px;
+}
+
+/* <---footer--->  */
+.footer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: auto;
+    width: 90%;
+    height: auto;
+    padding-bottom: 20px;
+    grid-template-areas: "d1 d2 d3 d4 d5";
+}
+
+.footer>div:first-child {
+    grid-area: d1;
+}
+
+.footer>div:nth-child(2) {
+    grid-area: d2;
+}
+
+.footer>div:nth-child(3) {
+    grid-area: d3;
+}
+
+.footer>div:nth-child(4) {
+    grid-area: d4;
+}
+
+.footer>div:nth-child(5) {
+    grid-area: d5;
+}
+
+.footer>div {
+    line-height: 30px;
+    font-size: 12px;
+}
+
+.footer div p>a {
+    text-decoration: none;
+    color: #0D5AB9;
+}
+
+.footer+hr {
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.trademark>p {
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+    color: #515151;
+    margin-bottom: 60px;
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    
+    .resorts1 {
+        flex-direction: column;
+    }
+
+    .resorts1>div {
+        margin-bottom: 10px;
+    }
+
+    .resorts2 {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        grid-row-gap: 0px;
+    }
+
+    .resorts2>div {
+        margin-top: -30px;
+    }
+
+    .planning {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .features div>img {
+        height: auto;
+    }
+
+    .features>div:nth-child(2) {
+        display: none;
+    }
+
+    .planning div>p {
+        bottom: 40px;
+    }
+
+    .youtube iframe {
+        border-radius: 10px;
+        width: 100%;
+        height: 600px;
+    }
+
+    .app {
+        height: auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .app div>img {
+        height: 300px;
+    }
+
+    .app>div:nth-child(3) {
+        display: none;
+    }
+
+    .app>div>h3,
+    .app>div>input,
+    .app>div>select {
+        display: none;
+    }
+
+    .app>div>button {
+        display: flex;
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
+        justify-content: center;
+        line-height: 30px;
+        font-size: 25px;
+        margin-bottom: 40px;
+    }
+
+    .app>div>h2 {
+        font-size: 28px;
+    }
+
+    .app>div li {
+        font-size: 22px;
+    }
+
+    .help {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        height: auto;
+    }
+
+    .help>div {
+        height: 120px;
+    }
+
+    .help div>h3+p {
+        font-size: 20px;
+        color: grey;
+        line-height: 35px;
+    }
+
+    .help div>h3 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    .footer {
+        grid-template-columns: repeat(5, 1fr);
+        grid-column-gap: 10px;
+        grid-template-areas: "d1 d2 d3 d4 d5";
+    }
+}
+
+@media screen and (max-width: 1235px) {
+    .fillform {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: "d1 d1"
+                             "d2 d3"
+                             "d4 d4";
+    }
+    .fillform>input:first-child,.fillform>input:nth-child(4){
+        width: 95%;
+        margin-bottom: 15px;
+    }
+    .fillform>input:nth-child(2),.fillform>input:nth-child(3){
+        width: 90%;
+        margin-bottom: 15px;
+    }
+    #formSection>div{
+        height: 450px;
+    }
+    form div>button{
+        position: relative;
+        top: 120px;
+    }
+    .check {
+        justify-content: left;
+        margin: auto;
+        width: 90%;
+        position: relative;
+        top: 130px;
+    }
+}
+@media screen and (max-width: 480px) {
+    
+    .resorts1 {
+        flex-direction: column;
+    }
+
+    .resorts1>div {
+        margin-bottom: 10px;
+    }
+
+    .resorts2 {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        grid-row-gap: 0px;
+    }
+
+    .resorts2>div {
+        margin-top: -30px;
+    }
+
+    .planning {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .features div>img {
+        height: auto;
+    }
+
+    .features>div:nth-child(2) {
+        display: none;
+    }
+
+    .planning div>p {
+        bottom: 40px;
+    }
+
+    .youtube iframe {
+        border-radius: 10px;
+        width: 100%;
+        height: 600px;
+    }
+
+    .app {
+        height: auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        margin-bottom: -150px;
+    }
+
+    .app div>img {
+        height: 300px;
+    }
+
+    .app>div:nth-child(3) {
+        display: none;
+    }
+
+    .app>div>h3,
+    .app>div>input,
+    .app>div>select {
+        display: none;
+    }
+
+    .app>div>button {
+        display: flex;
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
+        justify-content: center;
+        line-height: 30px;
+        font-size: 25px;
+        margin-bottom: 40px;
+    }
+
+    .app>div>h2 {
+        font-size: 28px;
+    }
+
+    .app>div li {
+        font-size: 22px;
+    }
+
+    .help {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        height: auto;
+    }
+
+    .help>div {
+        height: 120px;
+    }
+
+    .help div>h3+p {
+        font-size: 20px;
+        color: grey;
+        line-height: 35px;
+    }
+
+    .help div>h3 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    .footer {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 10px;
+        grid-template-areas: "d1 d1"
+            "d2 d3"
+            "d4 d5";
+    }
+
+    .footer>div>img {
+        margin-top: 250px;
+    }
+}
