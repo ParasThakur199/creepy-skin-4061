@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+.wrapper{
+    height: auto;
+    width: 50%;
+    margin: auto;
+}
+#formData{
+    width: 55%;
+    margin: auto;
+}
+#formData>input{
+    width: 100%;
+    height: 45px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 1px solid grey;
+}
+#formData>input[type=checkbox]{
+    width: 15px;
+    height: auto;
+}
+#formData label+p{
+    font-size: 13px;
+    color: grey;
+}
+#formData label{
+    color: gray;
+}
+#formData label+p+p{
+    font-size: 1fr;
+    color: grey;
+}
+#formData label+p+p span{
+    color: #0d5ab9;
+}
+button{
+    width: 100%;
+    line-height: 45px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: #a9c4e6;
+}
+button+p , button+p+p{
+    text-align: center;
+}
+button+p a , button+p+p a{
+    color: #0d5ab9; 
+    text-decoration: none;
+}
+

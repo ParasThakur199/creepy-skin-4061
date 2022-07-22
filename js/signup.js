@@ -1,6 +1,6 @@
 let container = document.querySelector(".wrapper");
 let form = document.querySelector("form").addEventListener("submit", getdata);
-let arr = JSON.parse(localStorage.getItem("storeData")) || [];
+let arr = JSON.parse(localStorage.getItem("signStoreData")) || [];
 function getdata(event) {
     event.preventDefault();
     let obj = {
@@ -10,6 +10,6 @@ function getdata(event) {
         pass: document.querySelector(".pass").value
     }
     arr.push(obj);
-    localStorage.setItem("storeData", JSON.stringify(arr));
+    localStorage.setItem("signStoreData", JSON.stringify(arr));
 
 }
