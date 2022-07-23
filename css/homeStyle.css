@@ -51,7 +51,7 @@ hr {
 }
 
 .fillform {
-    display: grid;  
+    display: grid;
     grid-template-columns: repeat(4, 1fr);
     /* justify-content:center; */
     width: 90%;
@@ -496,7 +496,7 @@ nav ul {
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
-    
+
     .resorts1 {
         flex-direction: column;
     }
@@ -613,24 +613,31 @@ nav ul {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
         grid-template-areas: "d1 d1"
-                             "d2 d3"
-                             "d4 d4";
+            "d2 d3"
+            "d4 d4";
     }
-    .fillform>input:first-child,.fillform>input:nth-child(4){
+
+    .fillform>input:first-child,
+    .fillform>input:nth-child(4) {
         width: 95%;
         margin-bottom: 15px;
     }
-    .fillform>input:nth-child(2),.fillform>input:nth-child(3){
+
+    .fillform>input:nth-child(2),
+    .fillform>input:nth-child(3) {
         width: 90%;
         margin-bottom: 15px;
     }
-    #formSection>div{
+
+    #formSection>div {
         height: 450px;
     }
-    form div>button{
+
+    form div>button {
         position: relative;
         top: 120px;
     }
+
     .check {
         justify-content: left;
         margin: auto;
@@ -639,8 +646,9 @@ nav ul {
         top: 130px;
     }
 }
+
 @media screen and (max-width: 480px) {
-    
+
     .resorts1 {
         flex-direction: column;
     }

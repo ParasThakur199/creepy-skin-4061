@@ -19,7 +19,7 @@ nav {
     display: flex;
 }
 .nav-menu li {
-    margin-left: 10px;
+    margin-left: 30px;
 }
 
 .nav-menu li>a {
