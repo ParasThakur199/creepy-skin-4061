@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+#container {
+    margin: auto;
+    width: 40%;
+    height: auto;
+}
+
+.heading {
+    font-size: 28px;
+    margin-bottom: 50px;
+}
+
+.tripImg {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.para {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.btn {
+    background-color: #0D5AB9;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    border: none;
+    line-height: 32px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+.clickarea {
+    border: 1px solid grey;
+    height: auto;
+    border-radius: 5px;
+}
+
+.clickarea h4 {
+    line-height: 5px;
+    padding-left: 10px;
+}
+
+.clickarea h4>span+p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 5px;
+}
+
+.clickarea h4>span {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 15px;
+    font-weight: bolder;
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .clickarea h4 {
+        line-height: 7px;
+    }
+
+    .clickarea h4>span+p {
+        line-height: 15px;
+    }
+}
+
+@media screen and (max-width: 481px) {
+    .clickarea h4 {
+        line-height: 15px;
+    }
+
+    .clickarea h4>span+p {
+        line-height: 20px;
+    }
+}

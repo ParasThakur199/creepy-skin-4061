@@ -14,7 +14,8 @@ function getdata(event){
 })
     if(flag=="false"){
         document.querySelector(".email").style.border="1px solid red";
-        alert("Wrong Credientials! Please Try-Again")
+        alert("Wrong Credientials! Please Try-Again");
+        return;
     }else{
         alert("Login Successfully :)");    
         window.location.href="./home.html";

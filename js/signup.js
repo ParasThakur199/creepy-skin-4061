@@ -18,6 +18,7 @@ function getdata(event) {
     if(flag == "true"){
         document.querySelector(".email").style.border="1px solid red";
         alert("Email id Already Exist");
+        return;
     }else{
     let obj={
         email: email,
