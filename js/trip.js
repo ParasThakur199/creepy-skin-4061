@@ -12,7 +12,7 @@ para.setAttribute("class","para");
 arr.forEach(function(elem){
     let data = elem.email;
     let resEmail=myfun(data);
-    para.innerText=`${resEmail}, You have no upcomming trips . Where are you going next?`;
+    para.innerText=`${resEmail} You have no upcomming trips . Where are you going next?`;
 });
 function myfun(data){
     result = data.slice(0, data.indexOf('@'));
