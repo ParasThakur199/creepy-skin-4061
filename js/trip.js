@@ -30,6 +30,6 @@ let paraClick1 = document.createElement("h4");
 paraClick1.innerHTML+="Find your booking <span> > </span><p>Use your itinerary number to look it up</p>";
 clickarea.appendChild(paraClick1);
 clickarea.addEventListener("click",function(){
-    window.location.href="#";
+    window.location.href="./booking_search.html";
 })
 container.append(head,image,para,btn,clickarea);
