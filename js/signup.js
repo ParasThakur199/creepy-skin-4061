@@ -13,7 +13,7 @@ function getdata(event) {
     arr2.forEach(function(event){
         if(event["email"] == email){
             flag = "true";
-        }
+        } 
     })
     if(flag == "true"){
         document.querySelector(".email").style.border="1px solid red";

@@ -8,7 +8,7 @@ let image = document.createElement("img");
 image.setAttribute("src","https://a.travel-assets.com/egds/illustrations/uds-default/baggage__large.svg");
 image.setAttribute("class","tripImg");
 let para = document.createElement("p");
-para.setAttribute("class","para");
+para.setAttribute("class","para"); 
 arr.forEach(function(elem){
     let data = elem.email;
     let resEmail=myfun(data);

@@ -10,7 +10,7 @@ function getdata(event){
     arr2.forEach(function(elem){
     if(elem["email"]==email){
         flag = "true";
-    }   
+    }    
 })
     if(flag=="false"){
         document.querySelector(".email").style.border="1px solid red";
