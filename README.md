@@ -1,5 +1,6 @@
 <h1>Travelocity Clone</h1>
 
+![Screenshot (58)]()
 
 <h3>What is travelocity.com -</h3>
 <p>"Travelocity.com is a leading online travel Web site where travelers can make airline, hotel, and car rental reservations, book cruises and vacation packages, find information about destinations, and access a range of other travel-related services."</p>
@@ -9,7 +10,7 @@
 <h1>Some visuals of our project </h1>
  </hr>
  <p>Landing page: </p>
- <img src="[https://user-images.githubusercontent.com/97459016/180615235-c1c7e4ba-0a3e-4800-9368-b6c15d442752.jpeg](https://user-images.githubusercontent.com/90348363/180632621-01f38007-ea15-4001-a9c4-c1b048742a28.png)"/>
+ <img src="https://user-images.githubusercontent.com/90348363/180632704-2bd799b5-73c7-4e8a-a3fa-720205504237.png"/>
   <p>Customers page: </p>
 <img src="" />
   <p>Pricing page: </p>
