@@ -1,15 +1,15 @@
-<h1>Everhour.com Clone</h1>
+<h1>Travelocity Clone</h1>
 
 
-<h3>What is everhour.com -</h3>
-<p>"Everhour is the best time tracking tool for use with Basecamp. In the past, we have used Toggl and Tick and while they did integrate with Basecamp, it wasn't as seamless as it is with Everhour."</p>
+<h3>What is travelocity.com -</h3>
+<p>"Travelocity.com is a leading online travel Web site where travelers can make airline, hotel, and car rental reservations, book cruises and vacation packages, find information about destinations, and access a range of other travel-related services."</p>
 
 </hr>
 
 <h1>Some visuals of our project </h1>
  </hr>
  <p>Landing page: </p>
- <img src="https://user-images.githubusercontent.com/97459016/180615235-c1c7e4ba-0a3e-4800-9368-b6c15d442752.jpeg"/>
+ <img src="[https://user-images.githubusercontent.com/97459016/180615235-c1c7e4ba-0a3e-4800-9368-b6c15d442752.jpeg](https://user-images.githubusercontent.com/90348363/180632621-01f38007-ea15-4001-a9c4-c1b048742a28.png)"/>
   <p>Customers page: </p>
 <img src="" />
   <p>Pricing page: </p>
