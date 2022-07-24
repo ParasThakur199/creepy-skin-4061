@@ -1,6 +1,5 @@
 <h1>Travelocity Clone</h1>
 
-![Screenshot (58)]()
 
 <h3>What is travelocity.com -</h3>
 <p>"Travelocity.com is a leading online travel Web site where travelers can make airline, hotel, and car rental reservations, book cruises and vacation packages, find information about destinations, and access a range of other travel-related services."</p>
@@ -14,8 +13,6 @@
   <p>Customers page: </p>
 <img src="" />
   <p>Pricing page: </p>
-<img src="" />
-  <p>Demo page: </p>
 <img src="" />
   <p>Login page: </p>
 <img src="" />
