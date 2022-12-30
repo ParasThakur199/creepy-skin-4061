@@ -7,11 +7,11 @@
 </hr>
 
 </hr>
-<h1>Tech Stack </h1>
-<h6>Client:</h6>
-            1. HTML5
-            2. CSS
-            3. JavaScript
+# Tech Stack
+
+          ##  1. HTML5
+          ##  2. CSS
+          ## 3. JavaScript
 
 
 
