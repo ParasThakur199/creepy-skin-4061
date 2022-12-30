@@ -6,6 +6,12 @@
 
 </hr>
 
+</hr>
+<h1>Tech Stack </h1>
+<h6>Client: <p> HTML5, CSS, JavaScript</p> </h6>
+
+
+
 <h1>Some visuals of our project </h1>
  </hr>
  <p>Landing page: </p>
@@ -26,7 +32,3 @@
 </hr>
 <h4>Checkout live  :</h4>
 https://medium.com/@parasjamwal19/travelocity-clone-e2992fdec263
-</hr>
-<h1>Tech Stack </h1>
-<h6>Client: <p> HTML5, CSS, JavaScript</p> </h6>
-
